@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="./style2.css">
+    <title>Level 2</title>
 </head>
 
 <div class="Jiggs2"><img src="./images/AH.gif" alt="Jiggs 2" style="width: 250px; height: 250px;"></div>
@@ -24,7 +24,17 @@
         clickys += 1 ;
         document.getElementById("clickys").innerHTML = clickys;
     };
-</script>
+    
+    setTimeout(function(){
+        if (clickys >= 80) {
+            window.location.href = "index3.html";
+        } else {
+            window.location.href = "index4.html";
+        }
+        
+    }, 15000);
+    
+    </script>
 
 
 <button type="button" onClick="onClick()">This is where you Click</button>

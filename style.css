@@ -10,7 +10,7 @@ h1{
  
 .Jiggs1 {
   width: 250px;
-  animation: 10s Jiggs1;
+  animation: 20s Jiggs1;
 }
 
 @keyframes Jiggs1{

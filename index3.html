@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="./style3.css">
+    <title>Level 3</title>
 </head>
 
 <div class="Jiggs2"><img src="./images/AH.gif" alt="Jiggs 2" style="width: 250px; height: 250px;"></div>
@@ -14,7 +14,7 @@
 <body>
     
 <video autoplay muted loop id="AAAAAAAHHHHHHHHHHH">
-  <source src="acquire the sire.mp4" type="video/mp4">
+  <source src="Morshu Beatboxing RTX On.mp4" type="video/mp4">
 </video>
 
 
@@ -24,7 +24,17 @@
         clickys += 1 ;
         document.getElementById("clickys").innerHTML = clickys;
     };
-</script>
+    
+    setTimeout(function(){
+        if (clickys >= 60) {
+            window.location.href = "index4.html";
+        } else {
+            window.location.href = "index4.html";
+        }
+        
+    }, 10000);
+    
+    </script>
 
 
 <button type="button" onClick="onClick()">This is where you Click</button>
