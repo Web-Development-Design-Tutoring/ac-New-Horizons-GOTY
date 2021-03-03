@@ -2,11 +2,15 @@
 <p>not actually animal crossing</p>
 
 
-<p>Plan for the project</p>
-
+<p>TODO: </p>
  <ol>
-  <li>Make a fullscreen JavaScript frame with a video in the background using bideo.js</li>
-  <li>Make our character gif transparent somehow</li>
-  <li>Build a "Game" for our character to walk to the right by pressing a button</li>
-  <li>Find a goal image</li>
+  <li>Use the walking Jigglypuff as a timer</li>
+  <li>Add multiple pages/levels for the different videos</li>
+ 
+ <ol style="list-style-type: lower-alpha; padding-bottom: 0;">
+  <li style="margin-left:2em">Make an  It/Then statement that will move to next level or page when the first level is complete</li>
+  <li style="margin-left:2em; padding-bottom: 0;">link them all to the same stylesheet</li>
+ </ol>
+  
+  <li>Finish CSS styling</li>
 </ol> 
